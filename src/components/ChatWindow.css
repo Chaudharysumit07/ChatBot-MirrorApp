@@ -22,9 +22,7 @@
 .header{
     width:100%;
     height: 50px;
-    background-color: rgb(89, 165, 45);
-  
-    /* align-self: flex-start; */
+    background-color: rgb(159, 212, 129);
     position: relative;
     display: flex;
     align-items: center;
@@ -56,7 +54,7 @@
 
 .chatSection{
   flex:8;
-  background-color: yellowgreen;
+  background-color: rgb(212, 212, 212);
 color: black;
 width: 100%;
 
@@ -73,7 +71,7 @@ flex-direction: column-reverse;
 .footer{
     width:100%;
     height: 50px;
-    background-color: rgb(181, 209, 53);
+    background-color: rgb(159, 212, 129);
   position: relative;
   border-radius: 0px 0px 24px 24px; 
   flex-basis:50px;
@@ -94,16 +92,18 @@ flex-direction: column-reverse;
 .inputClass input {
     font: inherit;
     font-size: 20px;
+    font-weight: 600;
     padding: 2px;
     padding-left: 10px;
     border-radius: 20px;
     border: none;
-    width: 100%;
+    width: 80%;
     height: 40px;
-    max-width: 80%;
+    /* max-width: 80%; */
     position: absolute;
     left: 0;
     bottom:4px;
+    margin-right: 40px;
   
     
   }
@@ -112,7 +112,7 @@ flex-direction: column-reverse;
   border-radius: 0 0 24px 0px;
   border:none;
     height: 50px;
-    width: 20%;
+    width: 18%;
     position: absolute;
     right: 0;
     top:0;
@@ -128,7 +128,7 @@ flex-direction: column-reverse;
 
   }
 
-  .inputClass button:hover {
+  .inputClass button:active {
     color: #14396A;
     background: #468CCF;
     background: linear-gradient(to top, #468CCF, #63B8EE);
@@ -137,7 +137,7 @@ flex-direction: column-reverse;
 
 
 
-@media screen and (max-width:480px)
+@media screen and (max-width:600px)
 {
     .username
     {
@@ -153,9 +153,11 @@ flex-direction: column-reverse;
         height: 90vh;
             
     }
+   
 
     
-
+    .inputClass input {
+      font-size: 15px;}
 
      
 }

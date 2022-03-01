@@ -1,13 +1,10 @@
-.chatBackground{
+.chatBackground {
+  display: flex;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
 
-display: flex;display: flex; 
-flex-direction:column-reverse;
- justify-content: flex-end;
- align-items: flex-end;
-
-padding: 10px 10px 10px 10px;
-bottom: 10px;
-
-
+  padding: 10px 10px 10px 10px;
+  bottom: 10px;
 }
-
