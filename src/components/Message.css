@@ -1,0 +1,66 @@
+.message{
+
+    box-sizing: border-box;
+    background-color: azure;
+    max-width: 80%;
+    
+    font-weight: 700;
+    border-radius: 10px;
+    position: relative;
+    /* right:0; */
+    /* bottom: 0;  */
+    margin-bottom: 10px;
+    padding: 5px;
+    align-self:flex-end;
+    
+    
+}
+
+.botMessage
+{
+    box-sizing: border-box;
+    background-color: rgb(214, 216, 91);
+    max-width: 80%;
+    
+    font-weight: 700;
+    border-radius: 10px;
+    position: relative;
+ 
+    margin-bottom: 10px;
+    padding: 5px;
+    align-self:flex-start;
+    
+
+}
+
+.textmsg{
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    word-wrap: break-word;
+    padding: 0;
+    margin:2px;
+    
+}
+
+.textTime{
+  font-size: 15px;
+  color: rgb(39, 38, 38);
+  position: absolute; 
+  right: 5%;
+  bottom: 5%;
+  margin:5px;
+
+  
+}
+
+
+@media screen and (max-width:700px)
+{
+    .textmsg{
+        font-size:15px;
+    }
+    .textTime{
+        font-size: 10px;
+    }
+}

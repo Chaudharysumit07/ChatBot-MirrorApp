@@ -1,0 +1,161 @@
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+
+ 
+}
+.chatWindow{
+    background-color: rgb(245, 245, 245);
+    width:60%;
+    height: 80vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 24px 24px 24px 24px; 
+       
+}
+
+.header{
+    width:100%;
+    height: 50px;
+    background-color: rgb(89, 165, 45);
+  
+    /* align-self: flex-start; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px 24px 5px 5px; 
+     border: 0px solid #FFFFFF;
+     flex:1;
+}
+
+
+
+.avatar{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    position: absolute;
+    left:0;
+   
+}
+
+.username
+{
+    font-size: 30px;
+    position:absolute;
+    left:60px;
+    text-align: center;
+
+}
+
+.chatSection{
+  flex:8;
+  background-color: yellowgreen;
+color: black;
+width: 100%;
+
+padding: 0;
+margin: 0;
+overflow-y: scroll;
+display: flex;
+flex-direction: column-reverse;
+
+
+
+}
+
+.footer{
+    width:100%;
+    height: 50px;
+    background-color: rgb(181, 209, 53);
+  position: relative;
+  border-radius: 0px 0px 24px 24px; 
+  flex-basis:50px;
+
+}
+.inputCLass{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    position: absolute;
+
+    
+
+}
+.inputClass input {
+    font: inherit;
+    font-size: 20px;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    max-width: 80%;
+    position: absolute;
+    left: 0;
+    bottom:4px;
+  
+    
+  }
+  .inputClass button{
+    padding-bottom: 10px 10px 10px 10px;
+  border-radius: 0 0 24px 0px;
+  border:none;
+    height: 50px;
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top:0;
+    text-align: center;
+
+  font-weight: bold;
+  color: #FCFFFD;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #597D10;
+
+  background: #5B8C06;
+  background: linear-gradient(to top, #5B8C06, #6FC72C);
+
+  }
+
+  .inputClass button:hover {
+    color: #14396A;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+  }
+
+
+
+
+@media screen and (max-width:480px)
+{
+    .username
+    {
+        font-size: 20px;
+        position:absolute;
+        left:60px;
+    
+    }
+
+    .chatWindow{
+        background-color: rgb(245, 245, 245);
+        width:90%;
+        height: 90vh;
+            
+    }
+
+    
+
+
+     
+}
