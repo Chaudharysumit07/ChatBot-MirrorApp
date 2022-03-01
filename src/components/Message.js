@@ -7,7 +7,7 @@ const Message = (props) => {
     //displaying bot reply
     <>
       <div className="botMessage">
-        <img className="botAvatar" src={chatbotimg}></img>
+        <img className="botAvatar" src={chatbotimg} alt=""></img>
         <span className="textmsg">{props.textMessage}</span>
         <br />
         <span className="textTime">{props.time}</span>
